@@ -1,0 +1,11 @@
+G2PWModel
+__pycache__
+*.zip
+*.srt
+*.wav
+*.pt
+*.pth
+*.ckpt
+logs
+generated_audio
+
