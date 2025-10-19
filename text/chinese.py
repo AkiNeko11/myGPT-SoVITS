@@ -40,6 +40,19 @@ else:
         for cand in ["y", "w"]:
             if pinyin.startswith(cand) and pinyin[len(cand):] in V_LIST:
                 return cand, pinyin[len(cand):]
+        # handle common 'y' + ü-series and contraction cases when mapping file is absent
+        if pinyin.startswith("y"):
+            rem = pinyin[1:]
+            # map to existing finals in V_LIST
+            y_special_map = {
+                "u": "v",       # yu -> v
+                "ue": "ve",     # yue -> ve
+                "uan": "van",   # yuan -> van
+                "un": "vn",     # yun -> vn
+                "ong": "iong",  # yong -> iong
+            }
+            if rem in y_special_map and y_special_map[rem] in V_LIST:
+                return "y", y_special_map[rem]
         raise AssertionError(f"Unknown pinyin mapping without opencpop-strict.txt: {pinyin}")
 
 import jieba_fast.posseg as psg
