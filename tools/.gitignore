@@ -10,3 +10,4 @@ __pycache__
 logs
 generated_audio
 
+!final_phonetic_transcriptions.txt

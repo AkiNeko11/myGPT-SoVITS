@@ -29,3 +29,6 @@ opencc==1.1.1; sys_platform == 'linux'
 python_mecab_ko; sys_platform != 'win32'
 langdetect
 soundfile
+gradio
+pyopenjtalk
+matplotlib

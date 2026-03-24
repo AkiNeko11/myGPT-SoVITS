@@ -1,0 +1,8 @@
+tools/denoised/output/mao(1).wav|mao|ja|つまんねえ女ばっかだった。面白え女。
+tools/denoised/output/mao(2).wav|mao|ja|おばあちゃんのミラキュラスカーレットライブハウスやってた
+tools/denoised/output/mao(3).wav|mao|ja|おばあちゃんのやらないの?そうだねバイバイ
+tools/denoised/output/mao(4).wav|mao|ja|猫ラーナいるバイバイ寝てるのは
+tools/denoised/output/mao(5).wav|mao|ja|モーティス気に入ったってギター弾く猫と遊ぶ
+tools/denoised/output/mao(6).wav|mao|ja|一生あるって思ってたなくなったけどでも居場所ってまた誰かが作るんだって
+tools/denoised/output/mao(7).wav|mao|ja|抹茶パフェドラムやってライブやる感動したライブやろライブやる
+tools/denoised/output/mao(8).wav|mao|ja|でも居場所ってまた誰かが作るんだって

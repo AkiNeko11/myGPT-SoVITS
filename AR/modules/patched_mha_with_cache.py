@@ -38,7 +38,7 @@ def multi_head_attention_forward_patched(
     average_attn_weights: bool = True,
     is_causal: bool = False,
     cache=None,
-) -> Tuple[Tensor, Optional[Tensor]]:
+) -> tuple[Tensor, Optional[Tensor]]:
     r"""
     Args:
         query, key, value: map a query and a set of key-value pairs to an output.

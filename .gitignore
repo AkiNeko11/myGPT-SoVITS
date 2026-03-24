@@ -9,3 +9,5 @@ __pycache__
 logs
 generated_audio
 
+pretrained_models/*
+.venv/*
