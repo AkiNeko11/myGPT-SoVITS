@@ -12,3 +12,4 @@ generated_audio
 pretrained_models/*
 .venv/*
 plugin/*
+.vs/*
